@@ -3,7 +3,7 @@ background-color:#e8f0ff;
 }
 #container{
     background-color: #f4eeed;
-    max-width: 900px;
+    max-width: 1200px;
     height: 350px;
     margin: auto;
     margin-top: 100px;
@@ -54,19 +54,16 @@ margin-top:25px;
 margin-bottom :6px;
 
 }
-button{
+#button{
     background-color: #dee271;
     border-radius: 40%;
     color: #a82514;
     padding: 6px 35px;
     text-align: center;
     text-decoration: none;
-   
+    float: left;
     font-size: 14px;
-  position:absolute;
-  bottom: 37%;
-  left: 25%;
- margin: auto;
+clear: both;
 }
 h4{
     margin: 20px 8px 8px 8px;
@@ -88,25 +85,210 @@ font-family: 'Times New Roman', Times, serif
    
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
+.icon{
+    align-items: center;
+    float: right;
+    width: 35px;
 
-.fa:hover {
-    opacity: 0.7;
 }
 
 
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    position: absolute;
-    left: 65%;
-    bottom: 40%
+
     
+
+#myprogress{
+    
+    width:60%;
+    background: #f1c1b8;
+}
+#mybar{
+    width:60%;
+    height: 30px;
+    text-align: right;
+    color:#07090c;
+    background: #05f125
+}
+#myprogress1{
+   
+    width:60%;
+    background: #f1c1b8;
+}
+#mybar1{
+    width:50%;
+    height: 30px;
+    text-align: right;
+    color:#07090c;
+    background: #05f125
+}
+#myprogress2{
+    width:60%;
+    background:#f1c1b8;
+}
+#mybar2{
+    width:65%;
+    height: 30px;
+    text-align:right;
+    color:#07090c;
+    background:#05f125;
+}
+#myprogress3{
+    width:60%;
+    background:#f1c1b8;
+}
+#mybar3{
+    width:80%;
+    height: 30px;
+    text-align:right;
+    color:#07090c;
+    background:#05f125;
+}
+#progressbars{
+    align-items: center;
+    
+}
+#my-skill{
+    
+    background: #ec9c22;
+    margin: auto;
+  align-self: center;
+    text-align: center;
+    color: #e8f0ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: inset;
+    border-width: 10px;
+    width: 200px;
+}
+#myskills{
+    margin-top:100px;
+    margin-left: 10%;
+    background: #a6f4f7;
+    width: 80%;
+}
+#portfolio{
+    background: #ec9c22;
+    margin: auto;
+  align-self: center;
+    text-align: center;
+    color: #e8f0ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: inset;
+    border-width: 10px;
+    width: 200px;
+}
+#portfolio-container{
+    margin-top:100px;
+    margin-left: 5%;
+    background: #a6f4f7;
+    width: 90%;
+}
+.magic-art{
+    text-align:center;
+    color: #e8f0ff
+ 
+}
+.lorem-ipsumS{
+    color: #e8f0ff;
+    text-align: center
+}
+.images{
+    width: 300px;
+    
+}
+
+#box1{
+    background: #1e1e1f;
+    width: 350px;
+    float: left;
+   margin-left: 25px;
+   margin-right: 50px;
+   margin-top: 100px;
+}
+#image-1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#box2{
+    background: #1e1e1f;
+    width: 350px;
+    float: left;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 100px;
+}
+#image-2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#box3{
+    background: #1e1e1f;
+    width: 350px;
+    float: right;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+#image-3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#box4{
+    background: #1e1e1f;
+    width: 350px;
+  float:left;
+  margin: 50px 50px 50px 50px;
+  order: unset;
+}
+  #image-4{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+#box5{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+#image-5{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+#box6{
+    float: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+#image-6{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+#news{
+    background: #ec9c22;
+    margin: auto;
+  align-self: center;
+    text-align: center;
+    color: #e8f0ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: inset;
+    border-width: 10px;
+    width: 200px;
+}
+#news-container{
+    margin-top:100px;
+    margin-left: 5%;
+    background: #a6f4f7;
+    width: 90%;
+}
+#first-newsbox{
+    width: 400px;
+    background: #fdfcfb
+}
+#first-newsimage{
+    margin: 25px 10px 10px 10px
 }
