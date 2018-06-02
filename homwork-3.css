@@ -307,6 +307,7 @@ font-family: 'Times New Roman', Times, serif
 }
 .news-box{
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 550px;
     background: #f1d2b2
 }
